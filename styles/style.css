@@ -329,3 +329,31 @@ nav{
 .capacidad .aclaracion{
     color: #235962;
 }
+/* ciclo */
+
+.pasos{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 17px;
+}
+
+.pasos article{
+    background: #f3f7fa;
+    padding: 24px 21px;
+    border-radius: 9px;
+}
+
+.pasos span{
+    font-size: 27px;
+    font-weight: bold;
+    color: #089caa;
+}
+
+.pasos h3{
+    margin: 6px 0px;
+    font-size: 17px;
+}
+
+.pasos p{
+    font-size: 13px;
+}
