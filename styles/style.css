@@ -207,3 +207,39 @@ nav{
     object-fit: contain;
     align-self: flex-end;
 }
+/* conceptos */
+
+.conceptos{
+    background: #0ae6af;
+}
+
+.conceptos .etiqueta{
+    color: #10435c !important;
+}
+
+.conceptos-cajas{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 18px;
+}
+
+.conceptos-cajas article{
+    padding: 24px;
+    border-radius: 12px;
+    background: #ffffffda;
+}
+
+.conceptos-cajas span{
+    font-size: 13px;
+    font-weight: bold;
+    color: #087f9e;
+}
+
+.conceptos-cajas h3{
+    font-size: 19px;
+    margin: 8px 0px;
+}
+
+.conceptos-cajas p{
+    font-size: 14px;
+}
