@@ -292,3 +292,40 @@ nav{
     font-size: 13px;
     margin-top: 22px;
 }
+/* capacidad */
+
+.capacidad{
+    background: #0ae6af;
+}
+
+.contenido-capacidad{
+    display: flex;
+    align-items: center;
+    gap: 75px;
+}
+
+.imagen-capacidad{
+    flex: 1;
+    width: 0px;
+    min-width: 0px;
+    object-fit: contain;
+}
+
+.texto-capacidad{
+    flex: 1;
+    min-width: 0px;
+}
+
+.lista-capacidad{
+    margin-top: 22px;
+}
+
+.lista-capacidad p{
+    padding: 11px 0px;
+    border-bottom: 1px solid #122e3630;
+    color: #1d3b44;
+}
+
+.capacidad .aclaracion{
+    color: #235962;
+}
