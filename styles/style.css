@@ -174,3 +174,36 @@ nav{
 .tarjeta p{
     font-size: 14px;
 }
+
+/* definición */
+
+.definicion{
+    position: relative;
+    overflow: hidden;
+    background: linear-gradient(166deg,#fff 0%,#fff 73%,#06edb4 73%,#06edb4 100%); /* esto trozo salio de una ia  */
+}
+
+.contenido-definicion{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 55px;
+}
+
+.texto-definicion{
+    flex: 1;
+    min-width: 0px;
+    padding-bottom: 90px;
+}
+
+.texto-definicion p{
+    margin-bottom: 17px;
+}
+
+.imagen-definicion{
+    flex: 1;
+    width: 0px;
+    min-width: 0px;
+    object-fit: contain;
+    align-self: flex-end;
+}
