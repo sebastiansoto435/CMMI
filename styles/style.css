@@ -146,3 +146,31 @@ nav{
     color: #e0e7ee;
     font-size: 17px;
 }
+
+/* beneficios */
+
+.tarjetas{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+}
+
+.tarjeta{
+    text-align: center;
+}
+
+.tarjeta img{
+    width: 145px;
+    height: 145px;
+    object-fit: contain;
+    margin-bottom: 13px;
+}
+
+.tarjeta h3{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.tarjeta p{
+    font-size: 14px;
+}
