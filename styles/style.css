@@ -243,3 +243,52 @@ nav{
 .conceptos-cajas p{
     font-size: 14px;
 }
+/* niveles */
+
+.nivel-cajas{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+}
+
+.nivel{
+    padding: 30px 26px;
+    border: 1px solid #e5eaf0;
+    border-radius: 10px;
+    background: #f8fafc;
+}
+
+.nivel span{
+    font-size: 45px;
+    font-weight: bold;
+    color: #0a9caa;
+    line-height: 1;
+}
+
+.nivel h3{
+    margin: 15px 0px 10px;
+    font-size: 19px;
+}
+
+.nivel p{
+    font-size: 14px;
+}
+
+.nivel.destacado{
+    background: #192442;
+    border-color: #192442;
+}
+
+.nivel.destacado span{
+    color: #05efb2;
+}
+
+.nivel.destacado h3,
+.nivel.destacado p{
+    color: white;
+}
+
+.aclaracion{
+    font-size: 13px;
+    margin-top: 22px;
+}
