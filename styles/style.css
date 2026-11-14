@@ -494,3 +494,32 @@ nav{
     color: #059c80;
     margin: 6px 0px 18px;
 }
+/* implementación */
+
+.implementacion-cajas{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 20px;
+}
+
+.implementacion-cajas article{
+    padding: 24px;
+    background: #192442;
+    border-radius: 8px;
+    color: white;
+}
+
+.implementacion-cajas span{
+    color: #0be6aa;
+    font-size: 23px;
+    font-weight: bold;
+}
+
+.implementacion-cajas h3{
+    margin: 10px 0px;
+}
+
+.implementacion-cajas p{
+    color: #dee6f0;
+    font-size: 14px;
+}
