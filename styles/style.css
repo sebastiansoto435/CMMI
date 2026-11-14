@@ -606,3 +606,59 @@ nav{
 .relacion-cajas p{
     font-size: 13px;
 }
+/* cierre */
+
+.cierre{
+    background: linear-gradient(#111e3ce8,#111e3ce8),url('assets/contact-bk.jpg');
+    background-position: center;
+    background-size: cover;
+    padding: 100px 0px;
+    color: white;
+}
+
+.contenido-cierre{
+    display: flex;
+    align-items: center;
+    gap: 90px;
+}
+
+.contenido-cierre > div{
+    flex: 1;
+    min-width: 0px;
+}
+
+.contenido-cierre p{
+    color: #dae6ef;
+    margin-bottom: 15px;
+}
+
+.nota-final{
+    border: 1px solid #53c6b980;
+    border-radius: 12px;
+    padding: 32px;
+}
+
+.nota-final h3{
+    margin-bottom: 14px;
+}
+
+/* footer */
+
+footer{
+    padding: 28px 0px;
+    background: #14203d;
+    color: #d8e1ea;
+}
+
+.pie{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 15px;
+    font-size: 13px;
+}
+
+.pie a{
+    color: #21eab6;
+}
