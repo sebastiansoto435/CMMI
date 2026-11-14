@@ -228,7 +228,39 @@
                 <p class="aclaracion">Esta es una síntesis de la guía. Si se necesita un resultado oficial, debe seguirse el método y los requisitos de evaluación aplicables.</p>
             </div>
         </section>
-        
+        <!-- ejemplo -->
+        <section class="seccion ejemplo" id="ejemplo">
+            <div class="contenedor contenido-ejemplo">
+                <div class="texto-ejemplo">
+                    <p class="etiqueta">CASO DE ESTUDIO DE LA GUÍA</p>
+                    <h2>Un sistema de préstamos de equipos</h2>
+                    <p>Una institución necesita gestionar préstamos y devoluciones de portátiles. Al principio utiliza hojas de cálculo diferentes, tiene poca trazabilidad y encuentra errores al final del desarrollo.</p>
+                    <p>El equipo propone aclarar requisitos, planificar tareas, modelar datos, utilizar control de versiones, comprobar reglas de préstamo y registrar resultados de pruebas.</p>
+                    <p>Así puede conservar evidencia y analizar los errores que se repiten para ajustar su proceso.</p>
+                </div>
+                <div class="caso-tarjeta">
+                    <h3>Ejemplo de regla verificable</h3>
+                    <p>Si un equipo ya está prestado, el sistema debe impedir que se registre otro préstamo para el mismo equipo.</p>
+                    <div class="caso-fila"><span>Requisito</span><strong>Evitar préstamos duplicados</strong></div>
+                    <div class="caso-fila"><span>Prueba</span><strong>Intentar prestar un equipo ocupado</strong></div>
+                    <div class="caso-fila"><span>Resultado esperado</span><strong>Operación rechazada</strong></div>
+                    <p class="pie-caso">Ejemplo educativo del caso descrito en la guía, no resultados de un sistema implementado.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- complementos -->
+        <section class="seccion relacion" id="relacion">
+            <div class="contenedor">
+                <div class="titulo"><p class="etiqueta">CMMI Y OTROS ENFOQUES</p><h2>Puede trabajar junto con otras prácticas</h2></div>
+                <div class="relacion-cajas">
+                    <article><h3>Agile / Scrum</h3><p>El trabajo iterativo puede acompañarse de seguimiento, control de riesgos y mejora de procesos.</p></article>
+                    <article><h3>DevOps / CI-CD</h3><p>La automatización aporta evidencia repetible de integración, pruebas y despliegues.</p></article>
+                    <article><h3>ISO 9001</h3><p>Puede complementar la gestión de calidad organizacional, pero no equivale a CMMI.</p></article>
+                    <article><h3>ISO/IEC 25010</h3><p>Ayuda a identificar atributos de calidad del producto, como seguridad, usabilidad y mantenibilidad.</p></article>
+                </div>
+            </div>
+        </section>
 
     </main>
 </body>

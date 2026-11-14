@@ -523,3 +523,86 @@ nav{
     color: #dee6f0;
     font-size: 14px;
 }
+/* ejemplo */
+
+.ejemplo{
+    background: #09eab1;
+}
+
+.contenido-ejemplo{
+    display: flex;
+    align-items: center;
+    gap: 65px;
+}
+
+.texto-ejemplo,.caso-tarjeta{
+    flex: 1;
+    min-width: 0px;
+}
+
+.texto-ejemplo p{
+    margin-bottom: 17px;
+    color: #24454b;
+}
+
+.caso-tarjeta{
+    padding: 35px;
+    background: white;
+    border-radius: 13px;
+    box-shadow: 0px 9px 20px #09293318;
+}
+
+.caso-tarjeta h3{
+    margin-bottom: 15px;
+}
+
+.caso-tarjeta > p{
+    margin-bottom: 18px;
+    font-size: 14px;
+}
+
+.caso-fila{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    gap: 25px;
+    border-top: 1px solid #e4e9ee;
+    padding: 13px 0px;
+    font-size: 13px;
+}
+
+.caso-fila span{
+    color: #657587;
+}
+
+.caso-fila strong{
+    text-align: right;
+}
+
+.caso-tarjeta .pie-caso{
+    margin: 16px 0px 0px;
+    font-size: 12px;
+}
+
+/* relación */
+
+.relacion-cajas{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 18px;
+}
+
+.relacion-cajas article{
+    background: #f4f7fa;
+    border-radius: 9px;
+    padding: 24px;
+}
+
+.relacion-cajas h3{
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.relacion-cajas p{
+    font-size: 13px;
+}
