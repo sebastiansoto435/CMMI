@@ -442,3 +442,55 @@ nav{
 .practica-cajas p{
     font-size: 14px;
 }
+/* métricas */
+
+.metricas{
+    background: #eef3f8;
+}
+
+.contenido-metricas{
+    display: flex;
+    gap: 75px;
+    align-items: center;
+}
+
+.texto-metricas,.ejemplo-metrica{
+    flex: 1;
+    min-width: 0px;
+}
+
+.texto-metricas p{
+    margin-bottom: 15px;
+}
+
+.texto-metricas ul{
+    margin: 20px 0px;
+    padding-left: 20px;
+}
+
+.texto-metricas li{
+    list-style: disc;
+    margin-bottom: 8px;
+}
+
+.ejemplo-metrica{
+    background: white;
+    padding: 40px;
+    border-radius: 14px;
+    text-align: center;
+    box-shadow: 0px 8px 25px #16284212;
+}
+
+.ejemplo-metrica .formula{
+    margin-top: 22px;
+    font-size: 23px;
+    color: #1c6679;
+}
+
+.ejemplo-metrica strong{
+    display: block;
+    font-size: 85px;
+    line-height: 1.2;
+    color: #059c80;
+    margin: 6px 0px 18px;
+}
